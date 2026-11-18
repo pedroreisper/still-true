@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # install.sh — install the `still-true` Claude Code skill.
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/pedroreisper/still-true/main/install.sh | bash
+#   git clone https://github.com/pedroreisper/still-true && bash still-true/install.sh
 #   bash install.sh                # from a clone
 #   bash install.sh --project      # install to .claude/skills/ in CWD
 #   bash install.sh --hook         # also wire up the Stop hook

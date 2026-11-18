@@ -87,12 +87,6 @@ less install.sh           # short, no obfuscation
 bash install.sh --hook    # installs skill + wires the Stop hook
 ```
 
-Or one-liner (trust the URL):
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/pedroreisper/still-true/main/install.sh | bash -s -- --hook
-```
-
 Then `/reload` your Claude Code session.
 
 ### Manual install
